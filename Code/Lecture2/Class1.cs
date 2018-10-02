@@ -83,7 +83,7 @@ namespace Lecture2
 
             k = ++m;
             l = n++;
-            Console.WriteLine($"k = {k}, m = {m}, l = {l}, n = {n}");
+            Console.WriteLine(string.Format("k = {0}, m = {1}, l = {2}, n = {3}", k, m, l, n));
         }
 
         static void ComparisonOperators()
