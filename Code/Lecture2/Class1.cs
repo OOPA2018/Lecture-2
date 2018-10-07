@@ -104,7 +104,7 @@ namespace Lecture2
             Console.WriteLine("Logical operators: ");
             bool logicalOr = EvaluateToAndWriteToConsole(true) | EvaluateToAndWriteToConsole(false);
             bool logicalAnd = EvaluateToAndWriteToConsole(false) & EvaluateToAndWriteToConsole(true);
-            //Generally use these to aid perfomance:
+            //Generally use these to aid perfomance: 
             Console.WriteLine("...and now the lazy version");
             bool logicalOrLazy = EvaluateToAndWriteToConsole(true) || EvaluateToAndWriteToConsole(false);
             bool logicalAndLazy = EvaluateToAndWriteToConsole(false) && EvaluateToAndWriteToConsole(true);
